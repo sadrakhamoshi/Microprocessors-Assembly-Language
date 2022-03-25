@@ -1,0 +1,8 @@
+VERSION:3 SOURCE_TIMESTAMP:543B2A63
+NODE:I LEVEL:0 LINE:24 "C:\cvavr\inc\mega32.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavr\inc\delay.h"
+NODE:V LEVEL:0 LINE:28 "ispause -> R4,R5"
+NODE:V LEVEL:0 LINE:29 "counter -> R6,R7"
+NODE:F LEVEL:0 LINE:31 "ext_int2_isr(void)"
+NODE:F LEVEL:0 LINE:37 "timer1_compa_isr(void)"
+NODE:F LEVEL:0 LINE:48 "main(void)"

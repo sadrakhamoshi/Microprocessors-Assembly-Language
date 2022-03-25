@@ -1,0 +1,48 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+num0                                                                              0x0260       4
+num1                                                                              0x0264       4
+num2                                                                              0x0268       4
+buffer                                                                            0x026C      32
+_base_y                                                                           0x028C       4
+_seed                                                                             0x0290       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+operation0                                                                        R5           1
+operation1                                                                        R4           1
+operation_enter                                                                   R6,R7        2
+equal_enter                                                                       R8,R9        2
+_lcd_x                                                                            R11          1
+_lcd_y                                                                            R10          1
+_lcd_maxx                                                                         R13          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+COMPUTE                                                                           0x00076     51
+main                                                                              0x000A9    168
+keypad_scan                                                                       0x00151     85
+_lcd_write_nibble_G100                                                            0x001A6     20
+_lcd_write_data                                                                   0x001BA     12
+lcd_gotoxy                                                                        0x001C6     13
+lcd_clear                                                                         0x001D3     12
+lcd_putchar                                                                       0x001DF     21
+lcd_puts                                                                          0x001F4     17
+lcd_init                                                                          0x00205     46
+ftoa                                                                              0x00233    194
+put_buff_G102                                                                     0x002F5     58
+_ftoe_G102                                                                        0x0032F    230
+_print_G102                                                                       0x00415    538
+sprintf                                                                           0x0062F     52
+ftrunc                                                                            0x00663     49
+floor                                                                             0x00694     23
+strcpyf                                                                           0x006AB     13
+strlen                                                                            0x006B8     12
+strlenf                                                                           0x006C4     13
